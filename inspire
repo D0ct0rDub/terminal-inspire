@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+import random
+
+# Add your own custom quotes to this list
+quotes = [
+    "'If it's not working, then just get it working, you dumb dumb!' -Abraham Lincoln",
+    "There's no success without a little suc(k)!",
+    "Think about what's stopping you right now. Now think about what you're trying to do. Are you gonna let one little pothole in the road ruin your whole road trip?",
+    "Everyone has great ideas. Few people have the courage to execute upon them. Make yourself one of the few.",
+    "'Hope is for the best. Expect the worst. Life is a play. We're unrehearsed.' -Mel Brooks",
+    "If Plan A fails, you've still got more letters in the alphabet.",
+    "'It's not can, it's will. You have to will things into function' - Kanye West",
+    "Reach for the stars, so if you fall you land on a cloud.",
+    "People might be able to do what you can do. They might be able to do it better than you can. But none of them can be YOU better than you can. So you've got something going for yourself.",
+    "'Bad moments are like clouds. They float away, and eventually, the sun shines again.' -Pops from Regular Show",
+    "Sometimes you have to make the wrong choice to know what the right one is. -Mordecai from Regular Show",
+    "'Going into space! Mathematics, quantum mechanics, the secrets of the universe! It is all there! Life is FIREY with its beauty! It is incredible, detailed! Tune into it!' -Alex Jones (suprisingly)",
+
+]
+
+def main():
+    # Pick a random quote and print it
+    selected_quote = random.choice(quotes)
+    print(f"\n {selected_quote} \n")
+
+if __name__ == "__main__":
+    main()
+0
