@@ -34,7 +34,7 @@ source ~/.bashrc
 
 ## Updating
 
-For now, updating Inspire is run via reinstalling the project
+For now, updating Inspire is run via reinstalling the project.
 
 To update Inspire to the latest version, re-run the installation commands:
 
